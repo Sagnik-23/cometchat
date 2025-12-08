@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# CometChat Internship Evaluation – UI Kit Exploration & Issue Report
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my submission for the **CometChat Internship Evaluation Task**, where I explored the CometChat Dashboard, UI Kit Builder, documentation, and implemented the generated UI Kit in React.  
+I have documented all issues, UX problems, friction points, and improvement suggestions in detail.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+Using a CometChat app created with the required `+test` Gmail format, I:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Explored the **CometChat Dashboard**
+2. Used the **UI Kit Builder** to configure & download a UI Kit
+3. Implemented the UI Kit in **React**
+4. Documented all issues, inconsistencies, and suggestions
+5. Compiled a detailed PDF report (included in this repository)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🖥️ Tech Stack Used
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React**
+- Vite (optional)
+- CometChat UI Kit
+- JavaScript / TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshots / Demo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+> **Add your actual images here after running the project**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Dashboard Preview
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Dashboard Screenshot](./images/dashboard_placeholder.png)
+
+### UI Kit Implementation
+
+![UI Kit Running Screenshot](./images/uikit_placeholder.png)
+
+---
+
+## 📝 Findings Summary
+
+A detailed PDF is included, but here is a high-level summary:
+
+### 🔹 Dashboard Issues
+
+- Missing dark mode (expected modern apps to have this)
+- Profile customization missing (users cannot change DP easily)
+- Some navigation items felt unclear for first-time users
+
+### 🔹 UI Kit Builder Issues
+
+- Threaded replies open a new thread → reduces visibility in group chats  
+  Users replying in both the main chat + thread may become confused.
+- No option to select wallpaper/themes for individual chats
+- No suggestions under the **Calls** section (e.g., suggested contact list)
+
+### 🔹 Implementation Issues
+
+- Some instructions reference using the "_entire downloaded folder_"  
+  but the task instruction specifically says:  
+  **Use only the UI Kit folder, not the whole downloaded package** → conflict.
+- Minor missing dependencies and unclear documentation sections
+- A few expected features didn’t match documentation exactly
+
+---
+
+## 📄 PDF Report
+
+My complete evaluation (issues + recommendations for improvement) is included as:
