@@ -63,7 +63,6 @@ A detailed PDF is included, but here is a high-level summary:
   but the task instruction specifically says:  
   **Use only the UI Kit folder, not the whole downloaded package** → conflict.
 - Minor missing dependencies and unclear documentation sections
-- A few expected features didn’t match documentation exactly
 
 ---
 
