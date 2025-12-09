@@ -32,13 +32,13 @@ Using a CometChat app created with the required `+test` Gmail format, I:
 
 ### Dashboard Preview
 
-![Dashboard Screenshot](./images/dashboard_placeholder.png)
+![Dashboard Screenshot](./images/home.png)
 
 ### UI Kit Implementation
 
-![UI Kit Running Screenshot](./images/uikit_placeholder.png)
+## 🎥 Demo Video
 
----
+[![Watch the demo](./images/home.png)](https://youtu.be/bp9PtRR1P6c)
 
 ## 📝 Findings Summary
 
@@ -69,4 +69,6 @@ A detailed PDF is included, but here is a high-level summary:
 
 ## 📄 PDF Report
 
-My complete evaluation (issues + recommendations for improvement) is included as:
+[Download the full PDF report](https://drive.google.com/file/d/1RP5thnoQzsH_OV-4DYfnGbKQQe_t4x9Z/view?usp=sharing)
+
+<!-- Replace the path above with your PDF location (e.g., ./reports/report.pdf or https://example.com/report.pdf). -->
